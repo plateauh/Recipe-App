@@ -46,7 +46,7 @@ class RecipesActivity : AppCompatActivity() {
         call?.enqueue(object: Callback<Recipes?>{
             override fun onResponse(call: Call<Recipes?>, response: Response<Recipes?>) {
                 recipesList = response.body()!!
-                recipeRecyclerView.adapter = RecyclerViewAdapter(recipesList)
+                recipeRecyclerView.adapter = RecyclerViewAdapter(this@RecipesActivity, recipesList)
             }
             override fun onFailure(call: Call<Recipes?>, t: Throwable) {
                 Toast.makeText(this@RecipesActivity, t.message, Toast.LENGTH_SHORT).show()
