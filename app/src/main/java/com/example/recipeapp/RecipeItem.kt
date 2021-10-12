@@ -3,6 +3,9 @@ package com.example.recipeapp
 import com.google.gson.annotations.SerializedName
 
 data class RecipeItem (
+    @SerializedName("title")
+    val title: String,
+
     @SerializedName("author")
     val author: String,
 
@@ -12,6 +15,4 @@ data class RecipeItem (
     @SerializedName("instructions")
     val instructions: String,
 
-    @SerializedName("title")
-    val title: String
 )

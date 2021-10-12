@@ -2,4 +2,11 @@
     <string name="app_name">Recipe App</string>
     <string name="recipe_title">Recipe Title</string>
     <string name="recipe_author">Recipe Author</string>
+    <string name="add_recipe_details">Add recipe details</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_author_name">Enter Author name</string>
+    <string name="enter_ingredients">Enter Ingredients</string>
+    <string name="enter_instructions">Enter Instructions</string>
+    <string name="save_recipe">save recipe</string>
+    <string name="view_recipes">view recipes</string>
 </resources>

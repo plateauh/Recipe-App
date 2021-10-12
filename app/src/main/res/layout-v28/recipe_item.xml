@@ -6,7 +6,8 @@
     android:layout_height="wrap_content"
     android:layout_margin="20dp"
     app:cardUseCompatPadding="true"
-    android:outlineAmbientShadowColor="@color/black">
+    android:outlineAmbientShadowColor="@color/black"
+    app:cardCornerRadius="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,7 +23,8 @@
             android:text="@string/recipe_title"
             android:textSize="20sp"
             android:layout_gravity="center"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:textStyle="italic"/>
 
         <TextView
             android:id="@+id/recipe_author_tv"
@@ -32,7 +34,8 @@
             android:text="@string/recipe_author"
             android:textSize="18sp"
             android:layout_gravity="center"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
